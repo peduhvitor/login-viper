@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/*MENU*/
+
+.menu {
+    width: 100%;
+    height: 46px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-menu img {
+    width: 55px;
+}
+
+/*SECTION LOGIN*/
+
+.login-section {
+    margin-top: -46px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: block;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.input-login {
+    width: 440px;
+    height: 49.62px;
+    outline: 0;
+    border: none;
+    border-radius: 52.75px;
+    background-color: #1E1E1E;
+    padding-left: 34px;
+    font-size: 15px;
+    font-weight: 300;
+    color:#F5F5F7;
+}
+
+.input-login::-webkit-input-placeholder {
+    color: #9A9A9D;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.input-login[type=email] {
+    margin-top: 36px;
+}
+
+.input-login[type=password] {
+    margin-top: 14px;
+}
+
+.box-login-remember-and-forgotmypassword {
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 13px 0px 13px;
+}
+
+label[for=remember] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    font-size: 14px;
+    font-weight: 200;
+    color:#F5F5F7;
+    cursor: pointer;
+}
+
+.input-login[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.box-login-remember-and-forgotmypassword a {
+    color:#9A9A9D;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration:none;
+}
+
+.box-login-remember-and-forgotmypassword a:hover {
+    text-decoration: underline;
+}
+
+input[type=submit] {
+    margin-top: 44px;
+    font-size: 17.88px;
+    font-weight: 400;
+    padding: 8px 44px 8px 44px;
+    background-color: #fff;
+    border: none;
+    border-radius: 38.5px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+
+    .section-menu img {
+        width: 15vw;
+    }
+
+    .login-title {
+        font-size: 5vw;
+    }
+    
+    .input-login {
+        width: 80vw;
+        height: 13.5vw;
+        border-radius: 14.444vw;
+        padding-left: 7vw;
+        font-size: 4vw;
+    }
+    
+    .input-login::-webkit-input-placeholder {
+        font-size: 4vw;
+    }
+    
+    .input-login[type=email] {
+        margin-top: 7vw;
+    }
+    
+    .input-login[type=password] {
+        margin-top: 3vw;
+    }
+    
+    .box-login-remember-and-forgotmypassword {
+        margin: 3.611vw 3.611vw 0px 3.611vw;
+    }
+    
+    label[for=remember] {
+        gap: 3vw;
+        font-size: 3vw;
+    }
+    
+    .input-login[type=checkbox] {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+    
+    .box-login-remember-and-forgotmypassword a {
+        font-size: 3vw;
+    }
+    
+    .box-login-remember-and-forgotmypassword a:hover {
+        text-decoration: underline;
+    }
+    
+    input[type=submit] {
+        margin-top: 7vw;
+        font-size: 4vw;
+        padding: 2.222vw 12.222vw 2.222vw 12.222vw;
+        border-radius: 10.556vw;
+    }
+
+}
