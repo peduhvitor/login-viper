@@ -120,6 +120,7 @@ label[for=remember] {
     font-weight: 400;
     padding: 8px 44px 8px 44px;
     background-color: #fff;
+    color: #000;
     border: none;
     border-radius: 38.5px;
     cursor: pointer;
